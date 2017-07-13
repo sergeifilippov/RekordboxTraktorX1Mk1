@@ -1,0 +1,61 @@
+@file,1,Traktor Kontrol X1 - 1
+ActiveLoop,,Button,,B344,B345,,,,B344,B345,,,,Act Left (Shift + Size Button Left)
+Browse,,Rotary,B310,,,,,,,,,,,Browse Left
+DvsAbsolute,,Button,,B326,B327,,,,B326,B327,,,,CUP | ABS Left
+DvsRelative,,Button,,B324,B325,,,,B324,B325,,,,CUE | REL Left
+FX1-1,,KnobSlider,B302,,,,,,,,,,,FX1 Knob 1
+FX1-1On,,Button,B30A,,,,,B30A,,,,,,FX1 Button 1
+FX1-1Select,,Button,B336,,,,,B336,,,,,,FX1 Shift + Button 1
+FX1-2,,KnobSlider,B304,,,,,,,,,,,FX1 Knob 2
+FX1-2On,,Button,B30C,,,,,B30C,,,,,,FX1 Button 2
+FX1-2Select,,Button,B338,,,,,B338,,,,,,FX1 Shift + Button 2
+FX1-3,,KnobSlider,B306,,,,,,,,,,,FX1 Knob 3
+FX1-3On,,Button,B30E,,,,,B30E,,,,,,FX1 Button 3
+FX1-3Select,,Button,B33A,,,,,B33A,,,,,,FX1 Shift + Button 3
+FX1Assign1,,Button,B314,,,,,B314,,,,,,FX1 Button Left
+FX1Assign2,,Button,B315,,,,,B315,,,,,,FX1 Button Right
+FX1AutoBeat,,Button,B334,,,,,B334,,,,,,Shift + FX1 On (Top Left)
+FX1FXMode,,Button,B308,,,,,B308,,,,,,FX1 On (Top Left)
+FX1TapBeat,,Button,B356,,,,,B356,,,,,,Tap Left (Shift + Sync Left)
+FX2-1,,KnobSlider,B303,,,,,,,,,,,FX2 Knob 1
+FX2-1On,,Button,B30B,,,,,B30B,,,,,,FX2 Button 1
+FX2-1Select,,Button,B337,,,,,B337,,,,,,FX2 Shift + Button 1
+FX2-2,,KnobSlider,B305,,,,,,,,,,,FX2 Knob 2
+FX2-2On,,Button,B30D,,,,,B30D,,,,,,FX2 Button 2
+FX2-2Select,,Button,B339,,,,,B339,,,,,,FX2 Shift + Button 2
+FX2-3,,KnobSlider,B307,,,,,,,,,,,FX2 Knob 3
+FX2-3On,,Button,B30F,,,,,B30F,,,,,,FX2 Button 3
+FX2-3Select,,Button,B33B,,,,,B33B,,,,,,FX2 Shift + Button 3
+FX2Assign1,,Button,B316,,,,,B316,,,,,,FX2 Button Left
+FX2Assign2,,Button,B317,,,,,B317,,,,,,FX2 Button Right
+FX2AutoBeat,,Button,B335,,,,,B335,,,,,,Shift + FX2 On (Top Right)
+FX2FXMode,,Button,B309,,,,,B309,,,,,,FX2 On (Top Right)
+FX2TapBeat,,Button,B357,,,,,B357,,,,,,Tap Right (Shift + Sync Right)
+Gain,,KnobSlider,,B300,B301,,,,,,,,Fast;,Dry/Wet Knob Left
+Load,,Button,,B312,B313,,,,B312,B313,,,,Load Left
+LoopHalfDouble,,Rotary,,B31A,B31B,,,,,,,,,Size Left
+LoopIn,,Button,,B31C,B31D,,,,B31C,B31D,,,,In Left
+LoopMove,,Rotary,,B346,B347,,,,,,,,,Move Left (Shift + Size Left)
+LoopOut,,Button,,B31E,B31F,,,,B31E,B31F,,,,Out Left
+Master,,Button,,B340,B341,,,,B340,B341,,,,Master Left (Shift + FX1 Left)
+MasterTempo,,Button,,B354,B355,,,,B354,B355,,,,Key Left (Shift + Play Left)
+NoFunction,,Button,B320,,,,,B320,,,,,,
+NoFunction,,Button,B322,,,,,B322,,,,,,
+NoFunction,,Button,B32F,,,,,B32F,,,,,,
+NoFunction,,Button,B332,,,,,B332,,,,,,
+NoFunction,,Button,,,B330,,,,,B330,,,,Traktor X1 Mk1 Shift + FX 1 Right
+NoFunction,,Button,,,B353,,,,,B353,,,,
+NoFunction,,Value,,B33C,,,,,,,,,,
+NoFunction,,KnobSlider,,,B32C,,,,,,,,Fast;,
+NoFunction,,KnobSlider,,,B32D,,,,,,,,Fast;,
+NoFunction,,Button,,,,,,B300,,,,,,
+PitchBendDown,,Button,,B34C,B34D,,,,B34C,B34D,,,,Bend Back Left (Shift + Beat Back Left)
+PitchBendUp,,Button,,B34E,B34F,,,,B34E,B34F,,,,Bend Forward Left (Shift + Beat Forward Left)
+PlayPause,,Button,,B328,B329,,,,B328,B329,,,Fast;Blink=1000;Priority=50;,Play Left
+PlayPausePreview,,Button,B33E,,,,,B33E,,,,,,View Left (Shift + Load Left)
+Quantize,,Button,,B342,B343,,,,B342,B343,,,,Snap (Shift + FX 2 Left)
+ReTrigger,,Button,,B318,B319,,,,B318,B319,,,,Loop Left
+Sync,,Button,,B32A,B32B,,,,B32A,B32B,,,Blink=600;,Sync Left
+TrackNext,,Button,,B352,B333,,,,B352,B333,,,,Cue Forward Right (Shift + CUP | ABS Right)
+TrackPrev,,Button,,B350,B351,,,,B350,B351,,,,Cue Back Left (Shift + CUE | REL Left)
+Zoom,,Rotary,B311,,,,,,,,,,,Browse Right

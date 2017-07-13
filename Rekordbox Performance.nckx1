@@ -1,0 +1,743 @@
+<?xml version="1.0"?>
+<ni-controller-midi-map version="1">
+  <midi-map type="TraktorKontrolX1" name="Rekordbox Performance" port="internal">
+    <shiftmode>0</shiftmode>
+    <wrapmode>0</wrapmode>
+    <controls />
+    <pages>
+      <current_index>0</current_index>
+      <page name="Basic">
+        <button version="1" id="BtnLowerA">
+          <controller>24</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="BtnLowerB">
+          <controller>25</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="BtnUpperA">
+          <controller>18</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="BtnUpperB">
+          <controller>19</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left 1">
+          <controller>10</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left 2">
+          <controller>12</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left 3">
+          <controller>14</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left &lt; Beat">
+          <controller>32</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left Beat &gt;">
+          <controller>34</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <wheel version="1" id="Left Browse">
+          <controller mode="comp">16</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button version="1" id="Left Cue">
+          <controller>36</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left Cup">
+          <controller>38</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="Left D/W">
+          <controller>0</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="Left FX 1">
+          <controller>20</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left FX 2">
+          <controller>22</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left In">
+          <controller>28</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left On">
+          <controller>8</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left Out">
+          <controller>30</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="Left P1">
+          <controller>2</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Left P2">
+          <controller>4</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Left P3">
+          <controller>6</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="Left Play">
+          <controller>40</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <wheel version="1" id="Left Size">
+          <controller mode="comp">26</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button version="1" id="Left Sync">
+          <controller>42</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right 1">
+          <controller>11</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right 2">
+          <controller>13</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right 3">
+          <controller>15</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right &lt; Beat">
+          <controller>33</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right Beat &gt;">
+          <controller>35</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <wheel version="1" id="Right Browse">
+          <controller mode="comp">17</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button version="1" id="Right Cue">
+          <controller>37</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right Cup">
+          <controller>39</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="Right D/W">
+          <controller>1</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="Right FX 1">
+          <controller>21</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right FX 2">
+          <controller>23</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right In">
+          <controller>29</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right On">
+          <controller>9</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right Out">
+          <controller>31</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="Right P1">
+          <controller>3</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Right P2">
+          <controller>5</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Right P3">
+          <controller>7</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="Right Play">
+          <controller>41</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <wheel version="1" id="Right Size">
+          <controller mode="comp">27</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button version="1" id="Right Sync">
+          <controller>43</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+      <page name="Shift">
+        <button version="1" id="BtnLowerA">
+          <controller>68</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="BtnLowerB">
+          <controller>69</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="BtnUpperA">
+          <controller>62</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="BtnUpperB">
+          <controller>63</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left 1">
+          <controller>54</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left 2">
+          <controller>56</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left 3">
+          <controller>58</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left &lt; Beat">
+          <controller>76</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left Beat &gt;">
+          <controller>78</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <wheel version="1" id="Left Browse">
+          <controller mode="comp">60</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button version="1" id="Left Cue">
+          <controller>80</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left Cup">
+          <controller>82</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="Left D/W">
+          <controller>44</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="Left FX 1">
+          <controller>64</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left FX 2">
+          <controller>66</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left In">
+          <controller>72</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left On">
+          <controller>52</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Left Out">
+          <controller>74</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="Left P1">
+          <controller>46</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Left P2">
+          <controller>48</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Left P3">
+          <controller>50</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="Left Play">
+          <controller>84</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <wheel version="1" id="Left Size">
+          <controller mode="comp">70</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button version="1" id="Left Sync">
+          <controller>86</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right 1">
+          <controller>55</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right 2">
+          <controller>57</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right 3">
+          <controller>59</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right &lt; Beat">
+          <controller>77</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right Beat &gt;">
+          <controller>79</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <wheel version="1" id="Right Browse">
+          <controller mode="comp">61</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button version="1" id="Right Cue">
+          <controller>81</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right Cup">
+          <controller>83</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="Right D/W">
+          <controller>45</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="Right FX 1">
+          <controller>65</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right FX 2">
+          <controller>67</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right In">
+          <controller>73</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right On">
+          <controller>53</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <button version="1" id="Right Out">
+          <controller>75</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <knob version="1" id="Right P1">
+          <controller>47</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Right P2">
+          <controller>49</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <knob version="1" id="Right P3">
+          <controller>51</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+          <range>360</range>
+          <steps>20</steps>
+          <bipolar>off</bipolar>
+        </knob>
+        <button version="1" id="Right Play">
+          <controller>85</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>gate</behavior>
+          <reaction>ondown</reaction>
+        </button>
+        <wheel version="1" id="Right Size">
+          <controller mode="comp">71</controller>
+          <channel>3</channel>
+          <min>0</min>
+          <max>127</max>
+          <default>0</default>
+        </wheel>
+        <button version="1" id="Right Sync">
+          <controller>87</controller>
+          <channel>3</channel>
+          <off>0</off>
+          <on>127</on>
+          <behavior>trigger</behavior>
+          <reaction>ondown</reaction>
+        </button>
+      </page>
+    </pages>
+  </midi-map>
+</ni-controller-midi-map>
